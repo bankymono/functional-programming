@@ -1,5 +1,6 @@
 package combinatorpattern;
 
+import java.util.Optional;
 import java.util.function.Function;
 import static combinatorpattern.CustomerRegistrationValidator.*;
 
@@ -11,4 +12,6 @@ public interface CustomerRegistrationValidator extends Function<Customer, Valida
         EMAIL_NOT_VALID,
         IS_NOT_AN_ADULT
     }
+
+
 }
